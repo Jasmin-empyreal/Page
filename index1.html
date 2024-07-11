@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link rel="stylesheet" href="style1.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+  
+
+  <div class="row">
+    <div class="col-6">
+      <img src="img/Handicraft-1.jpg" alt="Flower">
+    </div>
+    <br><br><br>
+    <div class="col-6">
+      <p> &nbsp;&nbsp; Already have an account &nbsp;&nbsp;
+      <a href="index.html">Sign In</a>
+      </p>
+      <h1>Welcome to Focus</h1>
+      <p>Register your Account</p>
+      <br>
+      <form>
+        <div class="row">
+          <div class="col">
+            <label class="First name">First name</label>
+            <input type="text" class="form-control" placeholder="First name" required>
+          </div>
+          <div class="col">
+            <label class="First name">Last name</label>
+            <input type="text" class="form-control" placeholder="First name" required>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col">
+            <label class="Phone no">Phone no</label>
+            <input type="number" class="form-control" placeholder="Phone no" required>
+            
+          </div>
+          <div class="col">
+            <label for="inputState">State</label>
+            <select id="inputState" class="form-control" required>
+              <option selected>Choose...</option>
+              <option>A</option>
+              <option>B</option>
+              <option>C</option>
+            </select>
+          </div>
+        </div>
+         <br>
+          <fieldset class="form-group">
+            <div class="row">
+              <legend class="col-form-label col-sm-2 pt-0">Gender </legend>
+              <div class="col-sm-10">
+
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                    value="option1">
+                  <label class="form-check-label" for="inlineRadio1">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                    value="option2">
+                  <label class="form-check-label" for="inlineRadio2">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3"
+                    value="option3">
+                  <label class="form-check-label" for="inlineRadio3">other</label>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+          <br>
+          <div class="row">
+            <div class="col-6">
+              <label class="Email">Email</label>
+              <input type="text" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="col-6">
+              <label for="exampleFormControlFile1">file input</label> &nbsp;
+              <input type="file" class="form-control-file" id="exampleFormControlFile1" required >
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col">
+              <label class="Password">Password</label>
+              <input type="Password" class="form-control" placeholder="Password" required>
+            </div>
+            <div class="col">
+              <label class="Password"> Confrom Password</label>
+              <input type="Password" class="form-control" placeholder="Password" required>
+            </div>
+          </div>
+          <br>
+          <button type="submit" class="btn btn-primary">Submit
+
+          </button>
+        </form>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>

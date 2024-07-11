@@ -1,0 +1,37 @@
+.container{
+    
+    height: auto;
+    font-style: italic;
+    display: flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow:auto;
+}
+.row
+{
+    border: 3px solid rosybrown;
+    display: flex;
+    align-items: center;
+}
+img{
+    height:100vh;
+    width: 100%;
+}
+
+p{
+    font-size: 20px;
+}
+.form-group{
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button{
+    background-color:rosybrown;
+    /*background-color: aqua;*/
+    height: 50px;
+    width: 90px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
